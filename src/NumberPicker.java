@@ -13,7 +13,7 @@ public class NumberPicker {
     private List<Integer> numbers;
     
     /**
-     * Create a NumberPicker that uses the given seed value for randomisation and that 
+     * Create a NumberPicker that uses the given seed value for randomization and that
      * returns the numbers in the range min to max (inclusive) in a random order.
      */
     public NumberPicker(final int seed, final int min, final int max) {
