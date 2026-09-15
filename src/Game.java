@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Game {
 
     private Game() {}
-    
+
     public static void main(String[] inputs) {
+
         Scanner input = new Scanner(System.in);
         System.out.println("Your challenge is to guess a secret "+CowsAndBulls.NUM_DIGITS+" digit number.");
 
